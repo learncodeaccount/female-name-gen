@@ -5,7 +5,7 @@ const names = require('human-names')
 
 app.set('view engine', 'ejs')
 
-const port = 3000 || process.env.PORT;
+const port = 8080 || process.env.PORT;
 
 
 app.get('/', (req, res) => {
